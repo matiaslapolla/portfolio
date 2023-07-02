@@ -74,7 +74,7 @@ export default function Home() {
           />
         </div>
 
-        <div className={"flex-1 flex flex-col items-center"}>
+        <div className={"flex-1 mb-32 flex flex-col items-center"}>
           <h1 className={"text-4xl text-center font-bold leading-relaxed"}>
             My tech stack includes:
           </h1>
@@ -93,6 +93,19 @@ export default function Home() {
               </>
             ))}
           </ul>
+        </div>
+
+        <div className={"flex"}>
+          <div
+            className={
+              "flex flex-1 flex-col p-16 h-1/2 items-center justify-center border border-red-500"
+            }
+          >
+            <h1 className={"text-4xl text-center font-bold leading-relaxed"}>
+              Some of my projects are:
+            </h1>
+          </div>
+          <div className={"flex flex-1 border border-red-500"}></div>
         </div>
       </div>
     </>
