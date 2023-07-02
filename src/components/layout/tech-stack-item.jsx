@@ -23,7 +23,7 @@ function TechStackItem(props) {
   return (
     <li
       className={
-        "flex flex-col gap-2 p-4 w-5/6  hover:border-cyan-300 hover:border transition duration-500 ease-in-out rounded-md "
+        "flex flex-col gap-2 p-4 w-full  hover:border-cyan-300 hover:border transition duration-100 ease-in-out rounded-md "
       }
     >
       <div className={"w-3/4"}>
@@ -34,7 +34,7 @@ function TechStackItem(props) {
           <p
             onClick={() => setShowDescription(!showDescription)}
             className={
-              "text-md leading-normal hover:text-cyan-500 font-mono transition duration-250 ease-in-out rounded-md"
+              "text-md leading-normal hover:text-cyan-500 font-mono transition duration-100 ease-in-out rounded-md"
             }
           >
             {description}
@@ -46,7 +46,7 @@ function TechStackItem(props) {
             }
             onClick={() => setShowDescription(!showDescription)}
           >
-            Show description
+            What's {title.toLowerCase()}?
           </button>
         )}
       </div>

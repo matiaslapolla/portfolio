@@ -84,7 +84,7 @@ export default function Home() {
 
           <ul
             className={
-              "flex flex-col border rounded-xl w-1/2 max-h-96 py-12 gap-4 items-center overflow-y-scroll"
+              "flex flex-col border rounded-xl w-1/2 max-h-96 p-8 gap-4 items-center overflow-y-scroll"
             }
           >
             {TechStack.map((tech) => (
