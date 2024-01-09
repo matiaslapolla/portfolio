@@ -5,7 +5,7 @@ function Footer() {
     <>
       <footer
         className={
-          "flex flex-col items-center justify-center gap-4 p-4 bg-slate-900"
+          "flex flex-col items-center justify-center gap-4 p-4 bg-black-900"
         }
       >
         <div className={"flex flex-col items-center justify-center gap-4"}>
@@ -13,7 +13,7 @@ function Footer() {
             <a
               href={"https://www.linkedin.com/in/matiaslapolla/"}
               className={
-                "text-slate-100 hover:text-cyan-600 transition duration-100"
+                "text-black-100 hover:text-cyan-600 transition duration-100"
               }
             >
               LinkedIn{" "}
